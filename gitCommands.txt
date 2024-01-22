@@ -1,0 +1,18 @@
+4 types of Git status : 
+
+1. untracked : new files which git doesn't track or not aware off.
+2. modified : if changes made in files
+3. staged : file is ready to be committed
+4. unmodified : file(s) is/are unchanged
+
+process : 
+Modified/untracked file ---> add (staged) ---> commit
+
+
+Commands : 
+
+1. add : adds new or changed files in your working directory to the Git staging area.
+    Syntax : git add <-file_name->
+
+2. commit : it is the record of change.
+    Syntax : git commit -m "<-some message->".
