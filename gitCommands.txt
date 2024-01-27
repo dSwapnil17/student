@@ -9,10 +9,13 @@ process :
 Modified/untracked file ---> add (staged) ---> commit
 
 
-Commands : 
+Imp Commands : 
 
 1. add : adds new or changed files in your working directory to the Git staging area.
     Syntax : git add <-file_name->
 
 2. commit : it is the record of change.
     Syntax : git commit -m "<-some message->".
+
+3. push : upload local repo content to remote repo
+    Syntax: git push origin main
