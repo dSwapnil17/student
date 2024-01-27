@@ -1,0 +1,14 @@
+init - use to create a new git repo
+
+    git init
+
+    git remote add origin <-repo link->  ---> to add new repo
+
+    git remote -v  ---> to verify/check remote
+
+    git branch  ---> to check branch
+
+    git branch -M mian  --->  to change branch name
+
+    git push -u origin main  --->  push the repo upstream from given branch
+
